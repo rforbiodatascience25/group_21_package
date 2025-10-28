@@ -1,0 +1,35 @@
+Package: dogma
+Type: Package
+Title: Central Dogma
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Sai Renuka", "Chandrasekaran",
+      email = "s252633@dtu.dk",
+      role = c("aut", "cre")
+    ),
+    person(
+      "Parastoo", "Tabibzadehtehrani",
+      email = "s252800@dtu.dk",
+      role = c("aut", "cre")
+    ),
+    person(
+      "Magdalena", "Zydorczak",
+      email = "s253712@dtu.dk",
+      role = c("aut", "cre")
+    ),
+    person(
+      "Ole Lennart", "Decker",
+      email = "s253728@dtu.dk",
+      role = c("aut", "cre")
+    ),
+    person(
+      "Raquel Ruiz", "Pascual",
+      email = "s254628@dtu.dk",
+      role = c("aut", "cre")
+    )
+  )
+Description: Replicate the central dogma of molecular biology
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
