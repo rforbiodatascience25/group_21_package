@@ -1,7 +1,8 @@
 #' aa_barplot
 #'
 #' @param sequence
-#'
+#' @importFrom stringr str_split boundary str_count
+#' @importFrom ggplot2 ggplot aes geom_col theme_bw theme
 #' @returns aa_plot
 #'
 #' @export
