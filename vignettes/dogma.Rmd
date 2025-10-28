@@ -1,5 +1,10 @@
 ---
-output: github_document
+title: "dogma"
+output: rmarkdown::pdf_document
+vignette: >
+  %\VignetteIndexEntry{dogma}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
 ---
 
 ```{r, include = FALSE}
@@ -12,6 +17,10 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(dogma)
 ```
+
+## Git hub repository
+
+<https://github.com/rforbiodatascience25/group_21_package>
 
 ## Package description
 

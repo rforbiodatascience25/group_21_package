@@ -1,6 +1,6 @@
 #' aa_barplot
 #'
-#' @param sequence
+#' @param sequence a sequence of aa's
 #' @importFrom stringr str_split boundary str_count
 #' @importFrom ggplot2 ggplot aes geom_col theme_bw theme
 #' @returns aa_plot
@@ -8,7 +8,7 @@
 #' @export
 
 # Plot amino-acid counts as a bar chart
-plot_aa_counts <- function(sequence){
+aa_barplot <- function(sequence){
 
   # Split sequence into individual characters and get unique residues
   unique_aa <- sequence |>
