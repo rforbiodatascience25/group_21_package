@@ -15,3 +15,7 @@ From here we give U nucleotide in RNA sequence.
 \description{
 from T to U
 }
+\examples{
+from_T_to_U("ATCGGCATTCGAATCG")
+
+}
