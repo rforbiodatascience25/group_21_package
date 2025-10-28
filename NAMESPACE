@@ -2,3 +2,4 @@
 
 export(RNA_to_protein)
 export(generate_dna)
+export(from_T_to_U)
