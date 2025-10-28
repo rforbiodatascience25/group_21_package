@@ -6,12 +6,12 @@ Authors@R: c(
     person(
       "Sai Renuka", "Chandrasekaran",
       email = "s252633@dtu.dk",
-      role = c("aut", "cre")
+      role = c("aut")
     ),
     person(
       "Parastoo", "Tabibzadehtehrani",
       email = "s252800@dtu.dk",
-      role = c("aut", "cre")
+      role = c("aut")
     ),
     person(
       "Magdalena", "Zydorczak",
@@ -21,15 +21,15 @@ Authors@R: c(
     person(
       "Ole Lennart", "Decker",
       email = "s253728@dtu.dk",
-      role = c("aut", "cre")
+      role = c("aut")
     ),
     person(
       "Raquel Ruiz", "Pascual",
       email = "s254628@dtu.dk",
-      role = c("aut", "cre")
+      role = c("aut")
     )
   )
-Description: Replicate the central dogma of molecular biology
+Description: Replicate the central dogma of molecular biology.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
