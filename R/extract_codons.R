@@ -7,7 +7,7 @@
 #' @export
 #'
 extract_codons <- function(seq_string, start = 1){
-  seq_length <- seq_string (name_me2)
+  seq_length <- nchar (seq_string)
   codons <- substring(seq_string,
                       first = seq(from = start, to = seq_length-3+1, by = 3),
                       last = seq(from = 3+start-1, to = seq_length, by = 3))

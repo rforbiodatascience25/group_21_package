@@ -3,5 +3,6 @@ test_that("multiplication works", {
 })
 
 test_that("codons are extracted", {
-  expect_equal(extract_codons('CCUACACGU', c("CCU","ACA","CGU")))
+  expect_equal(extract_codons('CCUACACGU'),
+  c("CCU","ACA","CGU"))
 })
